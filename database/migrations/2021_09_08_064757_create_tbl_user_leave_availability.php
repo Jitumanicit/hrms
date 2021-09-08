@@ -19,7 +19,7 @@ class CreateTblUserLeaveAvailability extends Migration
             $table->string('leave_name', '256');
             $table->string('leave_year', '10');
             $table->string('number_of_days', '10');
-            $table->string('occupied', '10');
+            $table->string('occupied', '20');
             $table->charset = 'utf8mb4';
             $table->collation = 'utf8mb4_unicode_ci';
             $table->timestamps();
